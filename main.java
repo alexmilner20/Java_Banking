@@ -46,7 +46,7 @@ public class Main {
             double ni_second = (d - ni_first) * 0.02;
             double first_income = (d - 12570) * 0.40;
             double calc_final = (d - first_income) - ni_second;
-            System.out.println("Amount: £" + first_income);
+            System.out.println("Amount: £" + calc_final);
           }
    
           // Printing the read line
